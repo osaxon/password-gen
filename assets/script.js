@@ -1,3 +1,5 @@
+var passwordBox = document.getElementById("password-box");
+
 function getRandom(max){
     return Math.floor(Math.random() * Math.floor(max));
 }
@@ -26,6 +28,7 @@ function generatePassword(){
         finalPW += string[getRandom(string.length)];
     }
     console.log(finalPW);
+    passwordBox.innerHTML = finalPW;
 }
 
 
