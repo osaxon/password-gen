@@ -6,13 +6,14 @@ const charsLower = ['a','b','c','d'];
 const charsUpper = charsLower.map(i => i.toUpperCase());
 const specChars = ['_','!','#','£','-','$'];
 
-
 function generatePassword(){
-    let password = "";
-    let pwLength = 8 //window.prompt("Password length");
+    var password = "";
+    var pwLength = 12 //window.prompt("Password length");
     for (i = 0; i < pwLength; i++){
+        var char = getRandom(charsLower.length)
+        password += charsLower[char];
     }
-    console.log(charsLower[getRandom(charsLower.length)]);
+    console.log(password)
 }
 
 
