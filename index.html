@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../password-gen/assets/style.css">
     <title>Password Generator</title>
 </head>
 <body>
 
-    <textarea name="password" id="password-box" cols="30" rows="10" placeholder="Password will appear here..."></textarea>
+    <header>
+        <h1>Password Generator</h1>
+        <h3>By Oli Saxon</h3>
+    </header>
 
-    <button id="generate" class="button">Generate</button>
+    <div class="flex-wrapper">
+        <textarea name="password" id="password-box" cols="30" rows="10" placeholder="Password will appear here..."></textarea>
+        <button id="generate" class="button">Generate</button>
+    </div>
+
+    
     
     <script src="assets/script.js"></script>
 </body>
