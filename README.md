@@ -8,4 +8,6 @@ The application takes user input to determine the length of the generated passwo
 
 The script in the background generates a random array based on the criteria given and then generates a password. I've included a check at the final stage of the script to ensure the generated password meets all the criteria; should one of the tests fail, a new password will be generated.
 
+Link to application: https://osaxon.github.io/password-gen/ 
+
 ![image](https://user-images.githubusercontent.com/47899043/109813405-3503ae80-7c25-11eb-964f-3a9f3f8ef143.png)
